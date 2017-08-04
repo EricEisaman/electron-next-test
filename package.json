@@ -9,14 +9,14 @@
     "dist": "npm run build && build"
   },
   "build": {
-    "asar": false,
-    "extraResources": [
+    "asar": false
+  },
+  "extraResources": [
     {
       "from": "renderer/out",
       "to": "app/renderer"
     }
-  ]
-  },
+  ],
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
     "Electron",
