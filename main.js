@@ -24,7 +24,7 @@ function createWindow () {
     entry = 'http://localhost:8000/start'
   } else {
     entry = url.format({
-      pathname: path.join(__dirname, './renderer/start/index.html'),
+      pathname: path.join(__dirname, './renderer/out/start/index.html'),
       protocol: 'file:',
       slashes: true
     })
